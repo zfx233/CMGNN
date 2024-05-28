@@ -1,0 +1,138 @@
+pubmed:
+  lr: 0.001
+  l2_coef: 0.00001
+  layers: 8
+  dropout: 0.4
+  variant: False
+  structure_info: False
+  patience: 200
+  lambda_: 0
+  normalize: 2
+  undirected: True
+  nhidden: 256
+
+
+actor:
+  lr: 0.05
+  l2_coef: 0.0005
+  layers: 1
+  dropout: 0.1
+  variant: False
+  structure_info: False
+  patience: 30
+  lambda_: 0.01
+  normalize: 1
+  undirected: True
+  nhidden: 64
+
+
+chameleonf:
+  lr: 0.001
+  l2_coef: 0.0000005
+  layers: 8
+  dropout: 0.8
+  variant: True
+  structure_info: True
+  patience: 400
+  lambda_: 0.01
+  normalize: -1
+  undirected: True
+  nhidden: 64
+
+
+squirrelf:
+  lr: 0.001
+  l2_coef: 0.
+  layers: 8
+  dropout: 0.6
+  variant: False
+  structure_info: True
+  patience: 400
+  lambda_: 10
+  normalize: -1
+  undirected: True
+  nhidden: 32
+
+
+romanempire:
+  lr: 0.05
+  l2_coef: 0.00005
+  layers: 4
+  dropout: 0.4
+  variant: True
+  structure_info: False
+  patience: 200
+  lambda_: 0.01
+  normalize: -1
+  undirected: True
+  nhidden: 64
+
+
+amazonratings:
+  lr: 0.005
+  l2_coef: 0.000005
+  layers: 1
+  dropout: 0.1
+  variant: False
+  structure_info: True
+  patience: 400
+  lambda_: 0.01
+  normalize: -1
+  undirected: True
+  nhidden: 256
+
+
+blogcatalog:
+  lr: 0.01
+  l2_coef: 0.000001
+  layers: 4
+  dropout: 0.8
+  variant: False
+  structure_info: False
+  patience: 200
+  lambda_: 0
+  normalize: 1
+  undirected: True
+  nhidden: 256
+
+
+flickr:
+  lr: 0.001
+  l2_coef: 0.0001
+  layers: 2
+  dropout: 0.6
+  variant: False
+  structure_info: True
+  patience: 400
+  normalize: -1
+  undirected: True
+  nhidden: 64
+  lambda_: 0
+
+
+photo:
+  lr: 0.005
+  l2_coef: 0.000005
+  layers: 1
+  dropout: 0.6
+  variant: True
+  structure_info: False
+  patience: 400
+  normalize: 2
+  undirected: True
+  nhidden: 128
+  lambda_: 0.01
+
+
+wikics:
+  lr: 0.005
+  l2_coef: 0.0000005
+  layers: 1
+  dropout: 0.3
+  variant: True
+  structure_info: True
+  patience: 200
+  normalize: -1
+  undirected: True
+  nhidden: 128
+  lambda_: 0.1

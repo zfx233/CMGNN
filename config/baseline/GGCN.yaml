@@ -1,0 +1,108 @@
+pubmed:
+  lr: 0.01
+  l2_coef: 0.001
+  dropout: 0.1
+  decay_rate: 0.6
+  nhidden: 80
+  nlayers: 2
+  use_sparse: True
+  patience: 100
+
+
+actor:
+  lr: 0.01
+  l2_coef: 0.0005
+  dropout: 0.5
+  decay_rate: 1.2
+  nhidden: 8
+  nlayers: 4
+  use_sparse: False
+  patience: 100
+
+
+chameleonf:
+  lr: 0.01
+  l2_coef: 0.00001
+  dropout: 0.6
+  decay_rate: 0.9
+  nhidden: 80
+  nlayers: 8
+  use_sparse: False
+  patience: 100
+
+
+squirrelf:
+  lr: 0.01
+  l2_coef: 0.001
+  dropout: 0.7
+  decay_rate: 0.9
+  nhidden: 8
+  nlayers: 4
+  use_sparse: False
+  patience: 100
+
+
+romanempire:
+  lr: 0.005
+  l2_coef: 0.0001
+  dropout: 0.5
+  decay_rate: 1.0
+  nhidden: 32
+  nlayers: 1
+  use_sparse: False
+  patience: 100
+
+
+amazonratings:
+  lr: 0.005
+  l2_coef: 0.0001
+  dropout: 0.5
+  decay_rate: 1.0
+  nhidden: 32
+  nlayers: 1
+  use_sparse: False
+  patience: 100
+
+
+blogcatalog:
+  lr: 0.01
+  l2_coef: 0.0001
+  dropout: 0.7
+  decay_rate: 0.8
+  nhidden: 32
+  nlayers: 4
+  use_sparse: False
+  patience: 100
+
+
+flickr:
+  lr: 0.01
+  l2_coef: 0.0001
+  dropout: 0.6
+  decay_rate: 0.8
+  nhidden: 64
+  nlayers: 2
+  use_sparse: False
+  patience: 100
+
+
+photo:
+  lr: 0.01
+  l2_coef: 0.0001
+  dropout: 0.6
+  decay_rate: 0.8
+  nhidden: 64
+  nlayers: 2
+  use_sparse: False
+  patience: 100
+
+
+wikics:
+  lr: 0.01
+  l2_coef: 0.0001
+  dropout: 0.6
+  decay_rate: 0.8
+  nhidden: 64
+  nlayers: 2
+  use_sparse: False
+  patience: 100

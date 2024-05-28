@@ -1,0 +1,108 @@
+pubmed:
+  lr: 0.01
+  l2_coef: 0.
+  dropout: 0.5
+  alpha: 0.2
+  lammbda: 1
+  layers: 32
+  variant: True
+  patience: 100
+
+
+actor:
+  lr: 0.01
+  l2_coef: 0.0005
+  dropout: 0.
+  alpha: 0.4
+  lammbda: 1
+  layers: 4
+  variant: False
+  patience: 100
+
+
+chameleonf:
+  lr: 0.005
+  l2_coef: 0.0001
+  dropout: 0.5
+  alpha: 0.2
+  lammbda: 1.5
+  layers: 8
+  variant: True
+  patience: 100
+
+
+squirrelf:
+  lr: 0.005
+  l2_coef: 0.0005
+  dropout: 0.5
+  alpha: 0.2
+  lammbda: 0.5
+  layers: 2
+  variant: False
+  patience: 100
+
+
+romanempire:
+  lr: 0.05
+  l2_coef: 0.00005
+  dropout: 0
+  alpha: 0.2
+  lammbda: 1
+  layers: 4
+  variant: True
+  patience: 100
+
+
+amazonratings:
+  lr: 0.01
+  l2_coef: 0.
+  dropout: 0
+  alpha: 0.4
+  lammbda: 1.5
+  layers: 4
+  variant: True
+  patience: 100
+
+
+blogcatalog:
+  lr: 0.05
+  l2_coef: 0.
+  dropout: 0.5
+  alpha: 0.3
+  lammbda: 0.5
+  layers: 16
+  variant: False
+  patience: 100
+
+
+flickr:
+  lr: 0.005
+  l2_coef: 0.
+  dropout: 0.5
+  alpha: 0.2
+  lammbda: 0.5
+  layers: 8
+  variant: False
+  patience: 100
+
+
+photo:
+  lr: 0.05
+  l2_coef: 0.
+  dropout: 0.5
+  alpha: 0.4
+  lammbda: 0.5
+  layers: 8
+  variant: False
+  patience: 100
+
+
+wikics:
+  lr: 0.01
+  l2_coef: 0.
+  dropout: 0.5
+  alpha: 0.2
+  lammbda: 1
+  layers: 2
+  variant: True
+  patience: 100

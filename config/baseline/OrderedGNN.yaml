@@ -1,0 +1,98 @@
+pubmed:
+  lr: 0.001
+  l2_coef: 0.0005
+  dropout: 0.4
+  dropout2: 0.1
+  global_gating: True
+  num_layers_input: 3
+  patience: 100
+
+
+actor:
+  lr: 0.005
+  l2_coef: 0.000005
+  dropout: 0.3
+  dropout2: 0.2
+  global_gating: True
+  num_layers_input: 2
+  patience: 100
+
+
+chameleonf:
+  lr: 0.005
+  l2_coef: 0.00000005
+  dropout: 0.1
+  dropout2: 0.1
+  global_gating: False
+  num_layers_input: 2
+  patience: 100
+
+
+squirrelf:
+  lr: 0.01
+  l2_coef: 0.05
+  dropout: 0.4
+  dropout2: 0.1
+  global_gating: False
+  num_layers_input: 2
+  patience: 100
+
+
+romanempire:
+  lr: 0.01
+  l2_coef: 0.0005
+  dropout: 0.4
+  dropout2: 0.1
+  global_gating: True
+  num_layers_input: 2
+  patience: 100
+
+
+amazonratings:
+  lr: 0.001
+  l2_coef: 0.000005
+  dropout: 0.1
+  dropout2: 0.1
+  global_gating: False
+  num_layers_input: 3
+  patience: 100
+
+
+blogcatalog:
+  lr: 0.001
+  l2_coef: 0.0005
+  dropout: 0.2
+  dropout2: 0.2
+  global_gating: True
+  num_layers_input: 1
+  patience: 100
+
+
+flickr:
+  lr: 0.001
+  l2_coef: 0.00000005
+  dropout: 0.3
+  dropout2: 0.1
+  global_gating: True
+  num_layers_input: 1
+  patience: 100
+
+
+photo:
+  lr: 0.001
+  l2_coef: 0.00000005
+  dropout: 0.3
+  dropout2: 0.2
+  global_gating: True
+  num_layers_input: 1
+  patience: 100
+
+
+wikics:
+  lr: 0.01
+  l2_coef: 0.0005
+  dropout: 0.3
+  dropout2: 0.1
+  global_gating: False
+  num_layers_input: 2
+  patience: 100

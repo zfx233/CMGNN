@@ -1,0 +1,78 @@
+pubmed:
+  lr: 0.01
+  l2_coef: 0.00005
+  dropout: 0.5
+  use_relu: True
+  patience: 100
+
+
+actor:
+  lr: 0.01
+  l2_coef: 0.00001
+  dropout: 0.5
+  use_relu: False
+  patience: 100
+
+
+chameleonf:
+  lr: 0.01
+  l2_coef: 0.0001
+  dropout: 0.5
+  use_relu: True
+  patience: 100
+
+
+squirrelf:
+  lr: 0.005
+  l2_coef: 0.0005
+  dropout: 0.5
+  use_relu: True
+  patience: 100
+
+
+romanempire:
+  lr: 0.01
+  l2_coef: 0.00005
+  dropout: 0.5
+  use_relu: False
+  patience: 100
+
+
+amazonratings:
+  lr: 0.01
+  l2_coef: 0.
+  dropout: 0.
+  use_relu: True
+  patience: 100
+
+
+blogcatalog:
+  lr: 0.001
+  l2_coef: 0.00005
+  dropout: 0.5
+  use_relu: True
+  patience: 100
+
+
+flickr:
+  lr: 0.005
+  l2_coef: 0.
+  dropout: 0.5
+  use_relu: False
+  patience: 100
+
+
+photo:
+  lr: 0.005
+  l2_coef: 0.001
+  dropout: 0.5
+  use_relu: False
+  patience: 100
+
+
+wikics:
+  lr: 0.005
+  l2_coef: 0.00001
+  dropout: 0.5
+  use_relu: False
+  patience: 100

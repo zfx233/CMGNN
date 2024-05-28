@@ -1,0 +1,138 @@
+pubmed:
+  lr: 0.005
+  l2_coef: 0.0001
+  dropout: 0.7
+  alpha: 1
+  beta: 1000
+  gamma: 0.6
+  delta: 0.8
+  norm_layers: 2
+  orders: 5
+  norm_func_id: 1
+  early_stopping: 100
+
+
+actor:
+  lr: 0.01
+  l2_coef: 0.0001
+  dropout: 0.8
+  alpha: 10
+  beta: 100
+  gamma: 0.5
+  delta: 0.8
+  norm_layers: 2
+  orders: 5
+  norm_func_id: 2
+  early_stopping: 100
+
+
+chameleonf:
+  lr: 0.01
+  l2_coef: 0.00005
+  dropout: 0.3
+  alpha: 1
+  beta: 100
+  gamma: 0.4
+  delta: 0.1
+  norm_layers: 3
+  orders: 4
+  norm_func_id: 2
+  early_stopping: 100
+
+
+squirrelf:
+  lr: 0.005
+  l2_coef: 0.0001
+  dropout: 0.1
+  alpha: 10
+  beta: 100
+  gamma: 0
+  delta: 0
+  norm_layers: 1
+  orders: 4
+  norm_func_id: 1
+  early_stopping: 100
+
+
+romanempire:
+  lr: 0.005
+  l2_coef: 0.0001
+  dropout: 0.5
+  alpha: 1
+  beta: 1000
+  gamma: 0.7
+  delta: 1
+  norm_layers: 1
+  orders: 4
+  norm_func_id: 1
+  early_stopping: 100
+
+
+amazonratings:
+  lr: 0.005
+  l2_coef: 0.00001
+  dropout: 0.6
+  alpha: 1
+  beta: 10
+  gamma: 0.8
+  delta: 0.5
+  norm_layers: 1
+  orders: 1
+  norm_func_id: 1
+  early_stopping: 100
+
+
+blogcatalog:
+  lr: 0.01
+  l2_coef: 0.0001
+  dropout: 0.3
+  alpha: 10
+  beta: 1
+  gamma: 0.8
+  delta: 0.6
+  norm_layers: 1
+  orders: 4
+  norm_func_id: 1
+  early_stopping: 100
+
+
+flickr:
+  lr: 0.005
+  l2_coef: 0.0001
+  dropout: 0.4
+  alpha: 0
+  beta: 100
+  gamma: 0.6
+  delta: 0.5
+  norm_layers: 1
+  orders: 3
+  norm_func_id: 2
+  early_stopping: 100
+
+
+photo:
+  lr: 0.01
+  l2_coef: 0.00005
+  dropout: 0.4
+  alpha: 0
+  beta: 100
+  gamma: 0.2
+  delta: 0.7
+  norm_layers: 1
+  orders: 5
+  norm_func_id: 2
+  early_stopping: 100
+
+
+wikics:
+  lr: 0.01
+  l2_coef: 0.00005
+  dropout: 0.1
+  alpha: 1
+  beta: 1000
+  gamma: 0.5
+  delta: 0.4
+  norm_layers: 1
+  orders: 4
+  norm_func_id: 2
+  early_stopping: 100

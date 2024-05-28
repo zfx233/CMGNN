@@ -1,0 +1,68 @@
+pubmed:
+  lr: 0.001
+  l2_coef: 0.001
+  lamda: 3
+  patience: 100
+
+
+actor:
+  lr: 0.001
+  l2_coef: 0.001
+  lamda: 4
+  patience: 100
+
+
+chameleonf:
+  lr: 0.001
+  l2_coef: 0.01
+  lamda: 28
+  patience: 100
+
+
+squirrelf:
+  lr: 0.001
+  l2_coef: 0.01
+  lamda: 1
+  patience: 100
+
+
+romanempire:
+  lr: 0.001
+  l2_coef: 0.0001
+  lamda: 24
+  patience: 100
+
+
+amazonratings:
+  lr: 0.001
+  l2_coef: 0.0001
+  lamda: 36
+  patience: 100
+
+
+blogcatalog:
+  lr: 0.001
+  l2_coef: 0.001
+  lamda: 2
+  patience: 100
+
+
+flickr:
+  lr: 0.001
+  l2_coef: 0.001
+  lamda: 2
+  patience: 100
+
+
+photo:
+  lr: 0.001
+  l2_coef: 0.001
+  lamda: 14
+  patience: 100
+
+
+wikics:
+  lr: 0.001
+  l2_coef: 0.0001
+  lamda: 20
+  patience: 100
